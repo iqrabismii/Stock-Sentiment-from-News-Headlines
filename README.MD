@@ -9,11 +9,11 @@
 
 
 ## Introduction 
-In this notebook, we will use __sentiment analysis__ on __financial news headlines from FINVIZ.com__ to gain investing insights. By understanding the emotions behind the headlines, we can predict the market's sentiment towards a stock and make educated guesses on its performance, allowing for informed trading decisions. The use of data science in processing this vast amount of information allows for quick analysis,
+This case study is from __DataCamp__. In this notebook, I have  use __sentiment analysis__ on __financial news headlines from FINVIZ.com__ to gain investing insights. By understanding the emotions behind the headlines, we can predict the market's sentiment towards a stock and make educated guesses on its performance, allowing for informed trading decisions. The use of data science in processing this vast amount of information allows for quick analysis,
 unlike the traditional method of spreading news via radio, newspapers and word of mouth which used to take days.
 
 ## Importing the HTML Files
-To import the HTML files for Facebook and Tesla, we will use the os library to locate the files on our local system and read them into memory. This will allow us to access the data in the files and perform sentiment analysis on the headlines to generate investing insight and make educated guesses about stock performance.
+To import the HTML files for Facebook and Tesla, we will use the os library to locate the files on our local system and read them into memory. This will allow us to access the data in the files and perform sentiment analysis on the headlines to generate investing insight and make educated guesses about stock performance.Datasets are available [here.](https://github.com/iqrabismii/Stock-Sentiment-from-News-Headlines/tree/main/datasets)
 
 ## Vader Sentiment Analysis
 Vader Sentiment Analysis is a pre-trained model that uses natural language processing (NLP) to determine the sentiment of a given text. It is specifically designed to analyze social media text, which typically includes a lot of slang, emoticons, and other non-standard forms of language. The model uses a combination of lexical heuristics, such as word-level sentiment scores, and grammatical heuristics, such as the use of negation and punctuation, to determine the overall sentiment of the text. 
@@ -21,7 +21,7 @@ The output of the model is a sentiment score on a scale of -1 to 1, where -1 rep
 
 ## Extracting the Headlines
 Let's extract the news headlines from the HTML files we imported into memory. We can see that the relevant information is located within the text inside the <td> and <a> tags of each table row (<tr>). We will use this information to create a structured data set for further analysis.
-More details can be found [here](https://github.com/iqrabismii/Stock-Sentiment-from-News-Headlines/blob/main/ExtractStockSentimentFromNewsHeadlines.ipynb)
+More details can be found [here.](https://github.com/iqrabismii/Stock-Sentiment-from-News-Headlines/blob/main/ExtractStockSentimentFromNewsHeadlines.ipynb)
   
 ## Implementing the Vader Function 
   
